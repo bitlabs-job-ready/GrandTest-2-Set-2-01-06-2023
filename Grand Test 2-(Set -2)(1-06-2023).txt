@@ -1,0 +1,192 @@
+Grand Test-2 
+
+The Grand Test-2 is divided into three sections. For the first section, two questions need to be completed. For the second section, any two questions need to be completed. And for the third section, any one question needs to be completed. Each question carries a score of 20 marks. 
+
+Section - 1:   - 40 marks 
+
+Question1: 
+
+Write a Java program to track the performance of a basketball team throughout a season. Implement an array to store the team's scores and the corresponding opposing team's scores for each game and calculate various statistics, such as the average score, highest score, and lowest score. Additionally, the program should display the number of games won and lost. Consider a game won if the team scores more points than the opposing team and lost if the team scores fewer points. If the scores are equal, it can be considered a tie or handled as per the specific requirements of the program. 
+
+ 
+
+Sample Input: 
+
+Enter the number of games played: 4 
+Enter the scores for each game: 
+Game 1 - Team's Score: 85 
+Game 1 - Opposing Team's Score: 70 
+Game 2 - Team's Score: 92 
+Game 2 - Opposing Team's Score: 80 
+Game 3 - Team's Score: 78 
+Game 3 - Opposing Team's Score: 82 
+Game 4 - Team's Score: 90 
+Game 4 - Opposing Team's Score: 95 
+  
+
+Sample Output: 
+
+Average Score: 86.25 
+Highest Score: 95 
+Lowest Score: 70 
+Games Won: 2 
+Games Lost: 2 
+
+------------------------------------------------------------------------------------------------------------------------------------- 
+
+Question 2: 
+
+You are developing a program to analyse a text message. The program should allow the user to enter a string and perform various operations on it, such as counting the number of characters, finding the occurrence of a specific word, find longest and smallest word. 
+
+Note: if two words are having same length, print the last word of the order.  
+
+Sample Input and Output: 
+
+Enter a text string: Hello, how are you doing today 
+
+Number of characters: 30 
+
+Enter a word to find frequency: how 
+
+Occurrences of "how": 1 
+
+Longest word: today 
+
+Smallest word: you 
+
+------------------------------------------------------------------------------------------------------------------------------------ 
+
+Question 3: 
+
+You are a software developer working on a student grade analysis program. Your task is to develop a program that allows users to enter the grades for each student and perform various operations, such as calculating the average grade, finding the highest and lowest grades, and determining the number of students who passed or failed based on a pass mark of 50. 
+
+Sample Input and Output: 
+
+Welcome to the Student Grade Analyzer! 
+
+Enter the number of students: 5 
+
+Enter the grades for each student: 
+
+Student 1: 85 
+
+Student 2: 90 
+
+Student 3: 76 
+
+Student 4: 68 
+
+Student 5: 92 
+
+ 
+
+Average Grade: 82.2 
+
+Highest Grade: 92 
+
+Lowest Grade: 68 
+
+Passing Grade: 70 
+
+Number of students who passed: 3 
+
+Number of students who failed: 2 
+
+Thank you for using the Student Grade Analyzer! 
+
+------------------------------------------------------------------------------------------------------------------------------------- 
+
+Section - 2:   - 40 marks 
+
+Question 4: 
+
+You are given an array of integers. The array contains both positive and negative numbers. Your task is to find the two numbers in the array whose sum is closest to zero. If there are multiple pairs with the same absolute sum, return the pair with the smallest positive number. 
+
+Write a Java program that takes an array of integers as input and returns the two numbers whose sum is closest to zero. 
+
+Input: 
+
+int[] nums = {1, 5, -4, -2, 9, -7, 3}; 
+
+Output: 
+
+result = [-2, 1] 
+
+----------------------------------------------------------------------------------------------------------------------------------- 
+
+Question 5: 
+
+You are developing a program to analyse and manipulate email addresses. The program should allow the user to enter an email address and perform various operations such as checking if the email address is valid, extracting the username and domain, and generating a masked email address. 
+
+Note:  
+
+   1. Email id does not starts with special characters and does not allow white spaces between characters. 
+
+    2. Email id should end with domain and should contains ‘@’ symbol.  
+
+Input: 
+
+String email = "example@email.com"; 
+
+Output: 
+
+Is the email address valid? true 
+
+Username: example 
+
+Domain: email.com 
+
+Masked Email: e******@email.com 
+
+-----------------------------------------------------------------------------------------------------------------------------
+Question 6: 
+
+Scenario: You are given two strings, s1 and s2, each containing only lowercase letters. Your task is to determine if s2 is a rotation of s1. s2 is a rotation of s1, so the function returns true otherwise false 
+
+Question: Write a Java program that checks if one string is a rotation of another. Implement a logical approach using strings to determine the rotation. 
+
+Sample Input: 
+
+ String s1 = "abcd"; 
+
+String s2 = "cdab"; 
+
+ Sample Output: 
+
+ Is s2 a rotation of s1? true 
+
+Hint: 
+
+Consider the string "abcd". If we rotate it by one position to the left, we get "bcda". If we continue rotating it, we get "cdab", "dabc", and finally, if we rotate it by one more position to the left, we get back to the original string "abcd". 
+
+__________________________________________________________________________________ 
+Section - 3:   - 20 marks 
+
+Question 7: 
+
+Scenario: You are given a string that represents a sentence. Your task is to find the most frequently occurring word in the sentence. If there are multiple words with the same highest frequency, choose the word that appears first in the sentence. 
+
+Sample Input: 
+
+ String sentence = "the cat and the dog jumped over the fence and ran away"; 
+
+ Sample Output: 
+
+ The most frequent word is: the 
+
+__________________________________________________________________________________
+Question: 8 
+
+You are given a string consisting of lowercase alphabets and digits. Write a Java program to find the length of the longest consecutive substring that contains an equal number of vowels and consonants. You can assume that there will be at least one such substring in the given string. Consider 'a', 'e', 'i', 'o', 'u' as vowels, and all other characters as consonants. The substring should consist of consecutive characters in the original string. 
+
+For example, if the input string is "aabeedkjrthio", the longest consecutive substring that satisfies the condition is "eedkjrthio" with a length of 10, as it contains 5 vowels ('e', 'e', 'o', 'i', 'o') and 5 consonants ('d', 'k', 'j', 'r', 't'). 
+
+Sample Input: 
+
+ Enter a string: abceiokudr 
+
+ Sample Output: 
+
+ Length of the Longest Consecutive Substring: 6 
+
+Explanation: In the input string "abceiokudr", the longest consecutive substring that contains an equal number of vowels and consonants is "ceioku" with a length of 6. It has 3 vowels ('e', 'i', 'o') and 3 consonants ('c', 'k', 'u'). 
